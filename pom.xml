@@ -68,5 +68,10 @@
             <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>io.github.febriez</groupId>
+            <artifactId>coffeetory_library</artifactId>
+            <version>1.0.4</version>
+        </dependency>
     </dependencies>
 </project>
