@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.UUID;
 
-public record UpgradeBook(UUID id, int chance, Enchantment enchant, int level) {
+public record UpgradeBook(UUID id, Enchantment enchant, int level, int chance) {
 
     public static final NamespacedKey KEY = new NamespacedKey(UpgradeForgeMain.getInstance(), "book.id");
 
