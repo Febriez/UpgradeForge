@@ -32,4 +32,8 @@ public record UpgradeBook(UUID id, Enchantment enchant, int level, int chance) {
                 .withPersistentData(KEY, id.toString())
                 .build();
     }
+
+    public boolean attachable(ItemStack item) {
+        return enchant.canEnchantItem(item);
+    }
 }
